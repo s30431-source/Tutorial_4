@@ -58,7 +58,7 @@ public sealed class LinqExercises
             .OrderBy(city => city);
     }
     
-    public IEnumerable<string> Task09_ThreeNewestEnrollments()
+    public IEnumerable<string> Task09_ThreeNewestEnrollments() 
     {
         return UniversityData.Enrollments
             .OrderByDescending(e => e.EnrollmentDate)
